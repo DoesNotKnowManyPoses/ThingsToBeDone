@@ -162,8 +162,8 @@ Page({
    if(dayDD<10){
      dayDD = "0"+(""+dayDD);
    }
-   //var keyDate= [date.getFullYear(), "年", monthMM, "月", dayDD, "日"].join("");//generate the key referring to date.
-   var keyDate="2017年08月05日";
+   var keyDate= [date.getFullYear(), "年", monthMM, "月", dayDD, "日"].join("");//generate the key referring to date.
+   //var keyDate="2017年08月05日";
     this.setData({
       keyDate: keyDate
     });
